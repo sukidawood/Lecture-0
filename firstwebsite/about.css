@@ -1,0 +1,109 @@
+<style>
+
+    nav, nav a{
+        background-color:rgb(252, 243, 215);
+        vertical-align: middle;
+        font-size: 16pt;
+        height: 40pt;
+        /* padding-right: 40px; */
+        padding-left: 40px;
+
+
+    }
+    
+
+    body{
+        margin: 0;
+    }
+    nav{
+        font-size: 17pt;
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'didot';
+        font-weight: bold;
+    }
+
+    a:link{
+        text-decoration: none;
+        color:rgb(160, 131, 90);
+
+    }
+    a:visited{
+        color:rgb(160, 131, 90);
+
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+    a:active{
+        text-decoration: underline;
+    }
+    h2{
+        font-family: didot;
+        font-size: 40px;
+        color:rgb(160, 131, 90);
+        text-align: center;
+        padding: 20px 0 20px 0;
+        position: relative;
+        left:-160px;
+    }
+    table, img{
+        height: 200px;
+        width:350px;
+    
+    }
+    table{
+        position:relative;
+        width: 80%;
+        padding: 0 30px 60px 60px;
+        color: rgb(160,131,90);
+        text-align: center;
+    }
+td{
+    /* width:100px;
+    height:100px; */
+}
+
+    .center{
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    .titles{
+        font-size: 40px;
+        text-align: center;
+        border:1px solid rgb(160, 131, 90);
+    }
+    .header{
+        padding: 2em;
+        font-family: didot;
+        font-size: 30px;
+        text-align: center;
+        color: rgb(212, 176, 127);
+        background-color: rgb(59, 3, 3);
+    }
+
+    .leftfloater{
+        float: left;
+        position: relative;
+        height:120px;
+        width:300px;
+        top: -90px;
+        left:30px;
+    }
+    footer{
+        background-color:rgb(252, 243, 215);
+        vertical-align: middle;
+        /* font-size: 16pt; */
+        height: 100pt;
+        text-align: left;
+        font-size: 17pt;
+        font-family: 'didot';
+        color:rgb(160, 131, 90);
+        padding: 30px 0 0 30px;
+
+
+    }
+</style>

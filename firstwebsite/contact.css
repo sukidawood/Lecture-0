@@ -1,0 +1,93 @@
+<style>
+
+    nav, nav a{
+        background-color:rgb(252, 243, 215);
+        vertical-align: middle;
+        font-size: 16pt;
+        height: 40pt;
+        /* padding-right: 40px; */
+        padding-left: 40px;
+
+    }
+    
+    body{
+        margin: 0;
+    }
+    nav{
+        font-size: 17pt;
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'didot';
+        font-weight: bold;
+    }
+
+
+    a:link{
+        text-decoration: none;
+        color:rgb(160, 131, 90);
+
+    }
+    a:visited{
+        color:rgb(160, 131, 90);
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+    a:active{
+        text-decoration: underline;
+    }
+    .jumbo-image {
+        background-image: url('images/flags.jpg');
+        background-size: cover;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 800px;
+    
+    }
+    h2{
+        font-family: didot;
+        font-size: 40px;
+        color:rgb(160, 131, 90);
+        text-align: center;
+        padding: 20px 0 0px 0;
+    }
+
+    form{
+        padding-bottom: 20px;
+    }
+
+    .last{
+        padding-bottom: 20px;
+    }
+
+    .info{
+        text-align: center;
+        font-size: 20px;
+        color:rgb(160, 131, 90);
+        font-family: didot;
+    }
+
+    .leftfloater{
+        float: left;
+        position: relative;
+        height:120px;
+        width:300px;
+        top: -89px;
+        left:30px;
+    }
+    footer{
+        background-color:rgb(252, 243, 215);
+        vertical-align: middle;
+    /* font-size: 16pt; */
+        height: 100pt;
+        text-align: left;
+        font-size: 17pt;
+        font-family: 'didot';
+        color:rgb(160, 131, 90);
+        padding: 30px 0 0 30px;
+
+
+    }
+</style>

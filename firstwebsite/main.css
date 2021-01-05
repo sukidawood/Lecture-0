@@ -1,0 +1,141 @@
+<style>
+
+
+    nav, nav a{
+        background-color:rgb(252, 243, 215);
+        vertical-align: middle;
+        font-size: 16pt;
+        height: 40pt;
+        /* padding-right: 40px; */
+        padding-left: 40px;
+
+    }
+    
+    body{
+        margin: 0;
+    }
+    nav{
+        font-size: 17pt;
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'didot';
+        font-weight: bold;
+    }
+
+    a:link{
+        text-decoration: none;
+        color:rgb(160, 131, 90);
+
+    }
+    a:visited{
+        color:rgb(160, 131, 90);
+    
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+    a:active{
+        text-decoration: underline;
+    }
+
+
+    .jumbo-image {
+        background-image: url('images/ghdams4.jpg');
+        background-size: cover;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 700px;
+        text-align: right;
+        color: white;
+        font-family: 'Optima';
+
+
+    }
+    .rightfloater{
+        float:right;
+        padding: 100px 60px 0px 0px;
+        font-size: 60px;
+        position:relative;
+    }
+    .rightfloater1{
+        float:right;
+        font-size: 17px;
+        font-family: didot;
+        padding:0px 60px 70px 500px;
+        position: relative;
+        top:-50px;
+        left:10px;
+
+    }
+
+
+
+    .leftfloater{
+        float:left;
+        height:114px;
+        position: relative;
+        top:-465px;
+        left: 30px;
+        padding:0 0 0 0;
+    }
+
+    .wrapper > div{
+        background: white;
+        padding:2em 0 4em 1em;
+        font-family: didot;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(160, 131, 90);
+    }
+    .header{
+        padding: 2em;
+        font-family: didot;
+        font-size: 30px;
+        text-align: center;
+        color: rgb(212, 176, 127);
+        background-color: rgb(59, 3, 3);
+
+    }
+    .wrapper{
+        display:grid;
+        /* grid-template-columns:20% 20% 20% 20%; */
+        grid-template-columns:repeat(3, 1fr);
+        grid-gap:1em;
+        grid-auto-rows: minmax(100px, auto);
+        /* padding-left: 80px;
+        padding-right: 30px; */
+    }
+
+    /* .beach{
+        background-image: url('images/rh3.jpg');
+    } */
+
+    div img{
+    
+        height:250px;
+        padding-top: 20px;
+    }
+
+    footer{
+        background-color:rgb(252, 243, 215);
+        vertical-align: middle;
+        /* font-size: 16pt; */
+        height: 100pt;
+        text-align: left;
+        font-size: 17pt;
+        font-family: 'didot';
+        color:rgb(160, 131, 90);
+        padding: 30px 0 0 30px;
+
+
+    }
+
+    
+    
+
+    
+
+    
+</style>
