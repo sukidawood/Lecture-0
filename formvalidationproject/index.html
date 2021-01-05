@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+
+    <title>JS Cafe</title>
+  </head>
+  <body>
+    <h1>Welcome to JS Cafe</h1>
+      <p>To work with us, please complete the form below. To shop our drinks,
+          scroll to the bottom for our menu. </p>
+  <form name="application">
+    <fieldset>
+      <legend>Job Application</legend>
+      <p>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName"><span id="firstNameWarning" class="alert"></span>
+      </p>
+      <p>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName"><span id="lastNameWarning" class="alert"></span>
+      </p>
+      <p>
+        <label for="phoneNumber">Phone Number</label>
+        <input type="number" name="phoneNumber" id="phoneNumber"><span id="phoneNumberWarning" class="alert"></span>
+      </p>
+      <p>
+        <label for="birthDate">Date of Birth</label>
+        <input type="date" id="birth" name="birthDate" min="1960-12-31" max="2005-01-01"><span id="emptyDateWarning" class="alert"></span>
+      </p>
+      <p>
+        <label for="experience">Years of Experience</label>
+        <input list="yearsExperience" name="year" id="year"><span id="experienceWarning" class="alert"></span>
+        <datalist id="yearsExperience">
+          <option value="1">
+          <option value="2">
+          <option value="3">
+          <option value="Other" id="other">
+        </datalist>
+      </p>
+      <p>
+        <label for="allergies">I have allergies: </label><input type="checkbox" name="allergies" id="allergies">
+      </p>
+      <p >
+        <label for="positionType">Select one position you are interested in:
+          <input type="radio" name="positionType" value="Barista" id="positionType" onchange="validateProfile">Barista
+          <input type="radio" name="positionType" value="Baker">Baker
+          <input type="radio" name="positionType" value="Server">Server
+        </label><span id="positionWarning" class="alert"></span>
+      </p>
+      <p>
+        <button type='submit' id='submit'>Submit</button>
+        <button type='reset' id="clear">Reset</button>
+      </p>
+    </fieldset>
+  </form>
+  <table class="menu" id="menu">
+    <tr>
+      <th>Item</th>
+      <th>Value</th>
+      <th>Amount</th>
+      <th>Subtotal</th>
+    </tr>
+    <tr>
+      <td id="americano"><img src="img/americano.jpg" alt="americano"></td>
+      <td id="americanoPrice">$2.00</td>
+      <td id="americanoAmount"></td>
+      <td id="americanoSubtotal"></td>
+    </tr>
+    <tr>
+      <td id="tea"><img src="img/tea.jpg" alt="tea"></td>
+      <td id="teaPrice">$1.50</td>
+      <td id="teaAmount"></td>
+      <td id="teaSubtotal"></td>
+    </tr>
+    <tr>
+      <td id="caramel"><img src="img/caramel.jpg" alt="caramel"></td>
+      <td id="caramelPrice">$2.55</td>
+      <td id="caramelAmount"></td>
+      <td id="caramelSubtotal"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+  </table>
+  <ul class="usrInformation" id="usrInformation">
+    <p><strong>Applicant Information: </strong></p>
+    <li id="displayFirstName"></li>
+    <li id="displayLastName"></li>
+    <li id="displayAge"></li>
+    <li id="displayPhone"></li>
+  </ul>
+  <ol class="usrInformation" id="usrInformation">
+    <p><strong>Purchase Summary:</strong></p>
+    <li id="noOfAmericanos"></li>
+    <li id="noOfTeas"></li>
+    <li id="noOfCaramels"></li>
+  <script src="scripts/validation.js"></script>
+  <script src="scripts/events.js"></script>
+</body>
+</html>
